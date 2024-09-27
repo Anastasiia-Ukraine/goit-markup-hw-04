@@ -420,19 +420,23 @@ ol {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.icon-link-footer {
+.icon-list-footer {
+  display: flex;
+  gap: 16px;
+}
+.social-link-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
   line-height: 0;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-list-footer .icon-link.footer:hover,
-.icon-link.footer:focus {
+.icon-list-footer .social-link-footer:hover,
+.social-link-footer:focus {
   background-color: #31d0aa;
 }
 .logo {
