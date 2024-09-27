@@ -194,8 +194,8 @@ ol {
 
 .button:hover,
 .button:focus,
-.background .link:hover,
-.link:focus {
+.icon-link:hover,
+.icon-link:focus {
   background-color: #404bbf;
 }
 /*---------------------------*/
