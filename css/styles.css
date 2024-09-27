@@ -420,13 +420,16 @@ ol {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.icon-list-footer {
+.icon-link-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
+  width: 100%;
   height: 100%;
+  border-radius: 50%;
   background-color: #4d5ae5;
+  line-height: 0;
 }
 .icon-list-footer .icon-link.footer:hover,
 .icon-link.footer:focus {
